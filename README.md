@@ -1,4 +1,4 @@
 1ik415-laborationer
 ===================
 
-Laborationer i kursen 1ik415
+Laborationsuppgifter i kursen 1ik415.
