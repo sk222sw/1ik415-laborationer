@@ -48,26 +48,30 @@ table {
 }
 
 p {
-	color: red;
+	color: #343434;
+	font-family: Tahoma;
 }
 
 div {
-	border: 1px solid black;
+
 }
 
 h1 {
 	font-size: 2em;
 	margin: .67em 0;
+	font-family: Tahoma;
 }
 
 h2 { 
 	font-size: 1.5em;
 	margin: .75em 0;
+	font-family: Tahoma;
 }
 
 h3 {
 	font-size: 1.17em;
 	margin: .83em 0;
+	font-family: Tahoma;
 }
 
 html, body {
@@ -75,6 +79,11 @@ html, body {
 	padding: 0;
 	height: 100%;
 }
+
+a:link {text-decoration: none; color: #1a1a1a; font-size: 18px;}
+a:visited {text-decoration: none; color: #1a1a1a;}
+a:hover {text-decoration: none; color: #1a1a1a; font-size: 20px;}
+a:active{text-decoration: none; color: #1a1a1a;}
 
 #wholePage {
 	width: 1200px;
@@ -95,6 +104,7 @@ html, body {
 }
 
 #menu {	
+	background-color: #afafaf;
 	padding: 10px;
 	margin-top: 10px;
 	margin-left: 25px;
@@ -107,6 +117,7 @@ html, body {
 }
 
 #content {
+	background-color: #afafaf;
 	text-align: left;
 	width: 1000px;
 	min-height: 100%;
@@ -116,6 +127,7 @@ html, body {
 	display: inline-block;
 	margin: 0 auto;
 	padding: 15px;
+	margin-top: 10px;
 	padding-bottom: 50px;
 	
 }
