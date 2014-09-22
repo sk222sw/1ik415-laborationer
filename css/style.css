@@ -82,13 +82,43 @@ html, body {
 }
 
 
-a.menuClass:link {text-decoration: none; color: #E8DBA4; font-size: 18px;}
-a.menuClass:visited {text-decoration: none; color: #E8DBA4;}
-a.menuClass:hover {text-decoration: none; color: #E8DBA4; font-size: 20px;}
-a.menuClass:active {text-decoration: none; color: #E8DBA4;}
-.menuClass {  background: #191912;
-  box-shadow: 10px 0 0 #FFF9C1, -10px 0 0 #FFF9C1;}
+a.menuClass:link {text-decoration: none; color: #191912; font-size: 18px;}
+a.menuClass:visited {text-decoration: none; color: #191912;}
+a.menuClass:hover {text-decoration: none; color: #191912;}
+a.menuClass:active {text-decoration: none; color: #191912;}
+.menuClass {  background: #E8DBA4;
+  /*box-shadow: 10px 0 0 #FFF9C1, -10px 0 0 #FFF9C1;*/}
 
+.activeLink {
+	background-color: green;
+}
+
+li a div {
+	background-color: #ffffff;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding: 5px;
+	margin-bottom: 3px;
+	border-bottom: 2px solid #A6A672;
+	border-right: 2px solid #A6A672;
+}
+li a div:hover {
+	background-color: #FFF9C1;
+	border-top: 2px solid #A6A672;
+	border-left: 2px solid #A6A672;	
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	margin-bottom: 1px;
+}
+.active {
+	background-color: #FFF9C1;	
+	border-top: 2px solid #A6A672;
+	border-left: 2px solid #A6A672;	
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	margin-bottom: 1px;
+	font-weight: bold;
+}
 
 #wholePage {
 	/*background-color: #FFF9C1;*/
@@ -98,10 +128,11 @@ a.menuClass:active {text-decoration: none; color: #E8DBA4;}
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	border: solid #A6A672 7px;
 }
 
 #header {
-	background-color: #E8E8A4;
+	background-color: #A6A672; /*A6A672*/
 	float:left;
 	width: 100%;
 }
@@ -112,20 +143,20 @@ a.menuClass:active {text-decoration: none; color: #E8DBA4;}
 
 #menu {	
 	/* background-color: #afafaf; */
+	/*border: 1px solid black; */
 	padding: 10px;
 	margin-top: 10px;
-	margin-left: 25px;
-	margin-right: auto;
+
 	text-align: left;
 	width: 150px;
-	height: 100px;
+	height: 150px;
 	position: relative;
 	float: left;
 	overflow: hidden;
 }
 
 #content {
-	background-color: #FFF9C1;
+	background-color: #E8E8A4;
 	text-align: left;
 	width: 950px;
 	min-height: 100%;
@@ -134,7 +165,7 @@ a.menuClass:active {text-decoration: none; color: #E8DBA4;}
 	overflow: auto;
 	display: inline-block;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 1px 15px 15px 15px; 
 	margin-top: 10px;
 	padding-bottom: 50px;
 	
@@ -142,7 +173,7 @@ a.menuClass:active {text-decoration: none; color: #E8DBA4;}
 }
 
 #footer {
-
+	background-color: #A6A672;
 	height: 40px;
 	position: absolute;
 	bottom: 0;
