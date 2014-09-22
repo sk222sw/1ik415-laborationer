@@ -4,42 +4,56 @@
     <head>
         <meta charset="utf-8" />
         <title>Kontakt</title>
+        <link rel="stylesheet" href="../css/style.css" />
     </head>
     
     <body>
-        <h1>Kontakt</h1>
+        <div id="wholePage">
         
-        <p>
-        <a href="../index.html">Start</a><br />
-        <a href="laborationer.html">Laborationer</a><br />
-        <a href="presentation.html">Presentation</a><br />
-        <a href="kontakt.html">Kontakt</a>
-        </p>
+            <div id="header">    
+                <img id="logo" src="../pics/logosonny.png" alt="logo">
+                <h1>Kontakt</h1>
+            </div>
+            <div id="menu">    
+                <ul>
+                    <li><a class="menuClass" href="../index.html">Start</a></li>
+                    <li><a class="menuClass" href="laborationer.html">Laborationer</a></li>
+                    <li><a class="menuClass" href="presentation.html">Presentation</a></li>
+                    <li><a class="menuClass" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            
+            <div id="content">
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+                <fieldset style="width:250px">
+                        <legend>Fråga</legend>
         
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
-        <fieldset style="width:250px">
-                <legend>Fråga</legend>
-
-            Ärendetyp:
-            <select name="question">
-                <option>Fråga</option>
-                <option>Klagomål</option>
-            </select> <br />
-            Rubrik: <input type="text" name="title" /> <br />
-            Fråga:
-            <textarea name="textarea" rows="5" cols="30"></textarea> <br />
+                    Ärendetyp:
+                    <select name="question">
+                        <option>Fråga</option>
+                        <option>Klagomål</option>
+                    </select> <br />
+                    Rubrik: <input type="text" name="title" /> <br />
+                    Fråga:
+                    <textarea name="textarea" rows="5" cols="30"></textarea> <br />
+                            </fieldset>
+                    <fieldset style="width:250px">
+                        <legend>Information om dig</legend>    
+                        <input type="checkbox" name="kontakt" value="mail" /> Mail <br />
+                        <input type="checkbox" name="kontakt" value="telefon" /> Telefon <br />
                     </fieldset>
-            <fieldset style="width:250px">
-                <legend>Information om dig</legend>    
-                <input type="checkbox" name="kontakt" value="mail" /> Mail <br />
-                <input type="checkbox" name="kontakt" value="telefon" /> Telefon <br />
-            </fieldset>
-           <input type="submit" value="Skicka" />
-        </form>
-
-        <p>Sonny Kjellberg<br />
-            Mail: sonnykjellberg {snabel@} gmail.com
-        </p>
+                   <input type="submit" value="Skicka" />
+                </form>
+        
+                <p>Sonny Kjellberg<br />
+                    Mail: sonnykjellberg {snabel@} gmail.com
+                </p>
+            </div>
+            <div id="footer">
+                <h3>COPYRIGHT SONNY KJELLBERG</h3>
+            </div>
+        </div>
+        
     </body>
     
 </html>
