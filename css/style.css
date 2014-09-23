@@ -137,7 +137,9 @@ li a div:hover {
 	background-color: #A6A672; /*A6A672*/
 	float:left;
 	width: 100%;
-
+	background-image: url(../pics/fr.png); 
+	background-repeat: no-repeat;
+	background-position: 25%;
 }
 
 #logo {
@@ -182,4 +184,11 @@ li a div:hover {
 	text-align: center;
 	display: inline-block;
 	margin-top: 10px;
+}
+
+.check {
+	background-image: url(../pics/check.png);
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;
 }
