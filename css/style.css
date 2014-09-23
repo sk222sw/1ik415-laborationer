@@ -82,6 +82,8 @@ html, body {
 }
 
 
+/*a-tags //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 a.menuClass:link {font-family: 'Lobster', 'Arial', sans-serif; text-decoration: none; color: #191912; font-size: 18px;}
 a.menuClass:visited {text-decoration: none; color: #191912;}
 a.menuClass:hover {text-decoration: none; color: #191912;}
@@ -120,6 +122,8 @@ li a div:hover {
 	font-weight: bold;
 }
 
+/*CONTENT //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 #wholePage {
 	/*background-color: #FFF9C1;*/
 	width: 1000px;
@@ -151,7 +155,6 @@ li a div:hover {
 	/*border: 1px solid black; */
 	padding: 10px;
 	margin-top: 10px;
-
 	text-align: left;
 	width: 175px;
 	height: 150px;
@@ -177,7 +180,7 @@ li a div:hover {
 #footer {
 	background-color: #A6A672;
 	height: 40px;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -186,9 +189,20 @@ li a div:hover {
 	margin-top: 10px;
 }
 
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 .check {
 	background-image: url(../pics/check.png);
 	background-repeat: no-repeat;
 	width: 15px;
 	height: 15px;
+}
+
+#shakespeare {
+	float: right;
+	height: 250px;
+	width: 250px;
+	border-radius: 10%;
+	border-right: 7px solid #E8E8A4;
+	margin-left: 4px;
 }
