@@ -138,7 +138,7 @@ li a div:hover {
 }
 
 #header {
-	background-color: #A6A672; /*A6A672*/
+	background-color: #A6A672;
 	float:left;
 	width: 100%;
 	background-image: url(../pics/fr.png); 
@@ -206,3 +206,36 @@ li a div:hover {
 	border-right: 7px solid #E8E8A4;
 	margin-left: 4px;
 }
+
+.table {
+	border: solid #a6a672 2px;
+	border-right: solid #a6a672 5px;
+	border-left: solid #a6a672 5px;	
+	color: #191912;
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+}
+
+.tableHead {
+	border-bottom: solid #a6a672 1px;
+	background-color: #A6A672;
+}
+
+.tableBody {
+	border-top: solid black 0px;
+}
+
+.table td {
+	border: solid black 1px;
+
+	background-color: white;
+}
+
+.tableFoot th {
+  background-color: #a6a672;
+  padding-top: 2px;
+}
+
+
+
+
