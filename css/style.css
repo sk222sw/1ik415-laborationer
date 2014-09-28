@@ -139,7 +139,7 @@ li a div:hover {
 
 #header {
 	background-color: #A6A672;
-	float:left;
+	float: left;
 	width: 100%;
 	background-image: url(../pics/fr.png); 
 	background-repeat: no-repeat;
@@ -238,6 +238,13 @@ li a div:hover {
   padding-top: 2px;
 }
 
-
+.contactForm {
+	width: 250px;
+	border: solid white 5px;
+	font-family: 'Lobster', 'Arial', sans-serif;
+	text-decoration: none; 
+	text-shadow: 2px 2px white;
+	color: #191912;
+}
 
 
