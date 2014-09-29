@@ -246,6 +246,8 @@ li a div:hover {
 	text-shadow: 2px 2px white;
 	color: #191912;
 }
+#printButton {display: none;}
 
+.printLink {display: none;}
 
 

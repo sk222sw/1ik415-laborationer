@@ -6,16 +6,17 @@
         <title>Kontakt</title>
         <link rel="stylesheet" href="../css/style.css" />
         <link href='//fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/print.css" media="print" />
+        <link rel="stylesheet" href="../css/print.css" media="print" />
     </head>
     
     <body>
         <div id="wholePage">
-        
+        <!-- ////////////////////////////////////////////////////////// -->        
             <div id="header">    
                 <img id="logo" src="../pics/logosonny.png" alt="logo">
                 <h1>Kontakt</h1>
             </div>
+        <!-- ////////////////////////////////////////////////////////// -->            
             <div id="menu">    
                 <ul>
                     <li><a class="menuClass" href="../index.html"><div>Start</div></a></li>
@@ -24,7 +25,7 @@
                     <li><a class="menuClass" href="kontakt.html"><div class="active">Kontakt</div></a></li>
                 </ul>
             </div>
-            
+        <!-- ////////////////////////////////////////////////////////// -->            
             <div id="content">
                 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
                 <fieldset class="contactForm">
@@ -44,13 +45,14 @@
                         <input type="checkbox" name="kontakt" value="mail" /> Mail <br />
                         <input type="checkbox" name="kontakt" value="telefon" /> Telefon <br />
                     </fieldset>
-                   <input type="submit" value="Skicka" />
+                   <input type="submit" value="Skicka" id="printButton" /><span class="printLink">Skicka</span>
                 </form>
         
                 <p>Sonny Kjellberg<br />
                     Mail: sonnykjellberg {snabel@} gmail.com
                 </p>
             </div>
+        <!-- ////////////////////////////////////////////////////////// -->
             <div id="footer">
                 <h3>COPYRIGHT SONNY KJELLBERG</h3>
             </div>

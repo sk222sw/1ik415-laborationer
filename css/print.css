@@ -17,7 +17,8 @@ h6 {font-size: 6pt;}
 #wholePage {border: none; width: 100%;} 
 #header {height: 50px;}
 #logo {display: none;}
-#content {margin-top: -150px; padding: 0px; border: 0px;}
+#content { padding: 0px; border: none;}
+#menu {display: none;}
 
 li a div {display: none;}
 
@@ -27,4 +28,19 @@ li a div:hover {display: none;}
 
 #shakespeare{border: none;}
 .blogPost video {display: none;}
+
+.printLink {display: inline; font-style: italic;}
+
+a {display: none;}
+
+.contactForm {
+	width: 250px;
+	border: solid white 5px;
+	font-family: 'Times New Roman', 'Arial', sans-serif;
+	text-decoration: none; 
+	color: black;
+	}
+
+.table {border: none;}
+
 }
