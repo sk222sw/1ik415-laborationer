@@ -61,3 +61,62 @@
 	display: inline-block;
 	margin-top: 10px;
 }
+
+/*/////////////////////////////////////////////////////*/
+
+#spriteStart {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px 0;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spriteLab {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -96px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spritePres {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -192px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spriteContact {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -288px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spriteStart:hover {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -48px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spriteLab:hover {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -144px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spritePres:hover {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -240px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#spriteContact:hover {
+    background: url(../css/pics/sprite.png);
+    background-position: 100px -336px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
