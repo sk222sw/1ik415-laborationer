@@ -1,4 +1,8 @@
 @media print {
+head, body {
+	height: 99%;
+}
+
 body {
 	background-color: white;
 	color: black;
