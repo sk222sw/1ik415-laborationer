@@ -18,13 +18,8 @@
 
 #menu {	
 	position: relative;
-	border: solid white 1px;
+	margin-bottom: -27px;
 }
-
-#menu > ul {
-	margin-left: -30px;
-}
-
 #menu li {
 	display: inline-block;
 }
@@ -54,4 +49,31 @@
 
 #footer h3 {
 	font-size: 0.8em;
+}
+
+/*a-tags //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+a.menuClass:link {font-family: 'Lobster', 'Arial', sans-serif; text-decoration: none; color: #191912; font-size: 14px;}
+a.menuClass:visited {text-decoration: none; color: #191912;}
+a.menuClass:hover {text-decoration: none; color: #191912;}
+a.menuClass:active {text-decoration: none; color: #191912;}
+.menuClass {  background: #E8DBA4;
+  /*box-shadow: 10px 0 0 #FFF9C1, -10px 0 0 #FFF9C1;*/}
+
+li a div:hover {
+	background-color: #FFF9C1;
+	border-top: 2px solid #A6A672;
+	border-left: 2px solid #A6A672;	
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	margin-bottom: 1px;
+}
+.active {
+	background-color: #FFF9C1;	
+	border-top: 2px solid #A6A672;
+	border-left: 2px solid #A6A672;	
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	margin-bottom: 1px;
+	font-weight: bold;
 }
