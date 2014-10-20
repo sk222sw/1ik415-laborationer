@@ -15,7 +15,9 @@ table, caption, tbody,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, */ video {
+time, mark, audio, */
+
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,21 +26,37 @@ time, mark, audio, */ video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+/*-------------------------------lägg till main?-----------------------------------------------*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
@@ -46,47 +64,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 p {
 	color: #191912;
 	font-family: 'Arial', sans-serif;
 }
-
-li, dl{
+li,
+dl {
 	font-family: 'Arial', sans-serif;
 }
-
 h1 {
 	color: #191912;
 	font-size: 2em;
 	margin: .67em 0;
 	font-family: Tahoma;
 }
-
-h2 { 
+h2 {
 	font-size: 1.5em;
 	margin: .75em 0;
 	font-family: Tahoma;
 }
-
 h3 {
 	font-size: 1.17em;
 	margin: .83em 0;
 	font-family: Tahoma;
 }
-
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 }
-
-img, video {
+img,
+video {
 	max-width: 100%;
 }
-
-
-
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .check {
@@ -95,7 +106,6 @@ img, video {
 	width: 15px;
 	height: 15px;
 }
-
 #shakespeare {
 	float: right;
 	height: 150px;
@@ -104,47 +114,46 @@ img, video {
 	border-right: 7px solid #E8E8A4;
 	margin-left: 4px;
 }
-
 /*TABLE STUFF //////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .table {
 	border: solid #a6a672 2px;
 	border-right: solid #a6a672 5px;
-	border-left: solid #a6a672 5px;	
+	border-left: solid #a6a672 5px;
 	color: #191912;
 	font-family: 'Arial', sans-serif;
 	text-align: center;
 }
-
 .tableHead {
 	border-bottom: solid #a6a672 1px;
 	background-color: #A6A672;
 }
-
 .tableBody {
 	border-top: solid black 0px;
 }
-
 .table td {
 	border: solid black 1px;
-
 	background-color: white;
 }
-
 .tableFoot th {
-  background-color: #a6a672;
-  padding-top: 2px;
+	background-color: #a6a672;
+	padding-top: 2px;
 }
-
 .contactForm {
 	width: 250px;
 	border: solid white 5px;
 	font-family: 'Lobster', 'Arial', sans-serif;
-	text-decoration: none; 
+	text-decoration: none;
 	text-shadow: 2px 2px white;
 	color: #191912;
 }
-#printButton {display: none;}
+#printButton {
+	display: none;
+}
+.printLink {
+	display: none;
+}
 
-.printLink {display: none;}
-
+article {
+	border: solid white 1px;
+}

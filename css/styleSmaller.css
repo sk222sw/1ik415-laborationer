@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-#header {
+header {
 	background-color: #A6A672;
 	float: left;
 	width: 100%;
@@ -16,15 +16,15 @@
 	display: none;
 }
 
-#menu {	
+nav {	
 	position: relative;
 	margin-bottom: -27px;
 }
-#menu li {
+nav li {
 	display: inline-block;
 }
 
-#content {
+main {
 	background-color: #E8E8A4;
 	text-align: left;
 	width: 90%;
@@ -34,21 +34,26 @@
 	overflow: auto;
 	display: inline-block;
 	margin: 0 auto;
-	padding: 1px 0px 15px 15px; 
+
 	margin-top: 10px;
 }
 
-.blogPost {
-	width: 100%;
-}
-
-#content > form {
+main .contactForm {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#footer h3 {
+div p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer h3 {
 	font-size: 0.8em;
+}
+
+.blogPost {
+	width: 100%;
 }
 
 /*a-tags //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

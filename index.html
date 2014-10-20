@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/print.css" media="print" />
         
         <link rel="shortcut icon" href="pics/fr.png" type="image/png">
-        <link rel"apple-touch-icon" href="pics/fr.png" height="144" width="144" />
+        <link rel="apple-touch-icon" href="pics/fr.png" height="144" width="144" />
         
         <link href='//fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
     </head>
@@ -22,22 +22,23 @@
     <body>
         <div id="wholePage">
         <!-- ////////////////////////////////////////////////////////// -->
-            <div id="header">    
+            <header>    
                 <img id="logo" src="pics/logosonny.png" alt="logo">
                 <h1>Sonny Kjellberg</h1>
-            </div>
+            </header>
         <!-- ////////////////////////////////////////////////////////// -->
-            <div id="menu">    
+            <nav>    
                 <ul>
                     <li><a class="menuClass" id="start" href="index.html"><div id="spriteStart" class="active">Start</div></a></li>
                     <li id="laborationerSprite"><a class="menuClass" href="pages/laborationer.html"><div id="spriteLab">Laborationer</div></a></li>
                     <li><a class="menuClass" href="pages/presentation.html"><div id="spritePres">Presentation</div></a></li>
                     <li><a class="menuClass" href="pages/kontakt.html"><div id="spriteContact">Kontakt</div></a></li>
                 </ul>
-            </div>
+            </nav>
         <!-- ////////////////////////////////////////////////////////// -->
-            <div id="content">    
+            <main>    
                 <h2>Kursblogg</h2><br />
+                <article>
                 <h3 id="shallICompare">En översatt dikt</h3>
                    <h4>Shakespeares 'Sonnet XVIII' översatt med 
                         <a href="http://ackuna.com/badtranslator" target="_blank"><span class="printLink">www.ackuna.com/badtranslator</span>
@@ -75,9 +76,14 @@
                                 life time Respiración."
                                 </p>
                         </div>
-
+                        <footer>
+                            <h5>
+                            Publicerat någon gång i oktober.
+                            </h5>
+                        </footer>
+                </article>
                 
-                    
+                <article>
                 <div class="blogPost">
                 <h3 id="blogvideo">Ett videoklipp</h3>
                     <video poster="pics/videopreview.jpg" controls>
@@ -86,12 +92,16 @@
                     </video>
                     <p>Källa: <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a></p><span class="printLink">www.bigbuckbunny.org</span>
                 </div>
-                    
+                </article>
+                
+                <article>
                 <div class="blogPost">
                 <h3 id="vectorcat">En vektorkatt</h3>
                 <img src="pics/vector.svg" alt="En vektorkatt"/>
                 </div>
-                    
+                </article>
+                
+                <article>
                 <div class="blogPost">
                 <h3>Schyssta länkar</h3>
                 <p>Några schyssta länkar:</p>
@@ -100,20 +110,22 @@
                         <li><a href="https://www.youtube.com/">Youtube</a></li><span class="printLink">www.youtube.com</span>
                         <li><a href="https://coursepress.lnu.se/">Coursepress</a></li><span class="printLink">www.coursepress.lnu.se</span>
                     </ul>
-                
                 <p>Publicerat 14-09-15</p>
                 </div>
+                </article>
                     
+                <article>
                 <div class="blogPost">
                 <h3>Hello Wörld!</h3>
                 <p>På denna blog kan ni följa mina spännande laborationer!</p>
                 <p>Publicerat 14-09-15</p>
                 </div>
-            </div>
+                </article>
+            </main>
             <!-- //////////////////////////////////////////////////////// -->
-            <div id="footer">
+            <footer>
                 <h3>COPYRIGHT SONNY KJELLBERG</h3>
-            </div>
+            </footer>
         </div>
     </body>    
     
