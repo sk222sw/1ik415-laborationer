@@ -155,5 +155,9 @@ video {
 }
 
 article {
-	border: solid white 1px;
+	border-right: solid #A6A672 10px;
+	border-left: solid #F2F2B1 3px;
+	border-top: solid #C9C989 3px;
+	margin-left: -10px;
 }
+
